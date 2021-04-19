@@ -1,0 +1,66 @@
+nav {
+  background-color: #563d7c;
+  color: white;
+  padding: 3vh 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 8px;
+}
+nav li a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+.register_from_row {
+  justify-content: space-around;
+  margin-top: 2vh;
+}
+.register_from_signup_row {
+  justify-content: space-around;
+  margin-top: 3vh;
+}
+.signup_label {
+  font-weight: bold;
+  color: #563d7c;
+}
+.login_form_row {
+  margin-left: 25vw;
+}
+.login_button {
+  margin-left: 35vw;
+  margin-top: 3vh;
+}
+.available_timings_to {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.header {
+  color: white;
+  text-decoration: none;
+}
+.header:hover {
+  color: white;
+  text-decoration: none;
+}
